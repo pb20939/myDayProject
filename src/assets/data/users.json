@@ -23,5 +23,15 @@
     "id": 5,
     "name": "Gucio",
     "password": "12345"
+  },
+  {
+    "id": 6,
+    "name": "Fela",
+    "password": "12345"
+  },
+  {
+    "id": 7,
+    "name": "Lola",
+    "password": "12345"
   }
 ]

@@ -1,1 +1,36 @@
-<p>home works!</p>
+<!--moje linki-->
+<section id="mylinks">
+  <div class="resume-section">
+  <div class="card border-primary shadow-lg m-3">
+    <div class="card-body">
+      <h4 class="card-title">My links</h4>
+
+    </div>
+
+    </div>
+  </div>
+
+</section>
+
+<section id="my_weight">
+  <div class="resume-section">
+  <div class="card border-primary shadow-lg m-3">
+    <div class="card-body">
+      <h4 class="card-title">My weight history</h4>
+
+      <!-- formularz -->
+      <div class="row m-3">
+        <div class="col">
+          <app-weightform (dayWeight)="getData($event)"></app-weightform>
+        </div>
+      </div>
+      <!-- tabelka, wykres -->
+      <div class="row m-3">
+        <div class="col">
+          <app-weightchart></app-weightchart>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>

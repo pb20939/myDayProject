@@ -1,12 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import {Router} from "@angular/router";
 import {HttpClient} from "@angular/common/http";
+import {GetDataService} from "../../MyServices/get-data.service";
 
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.scss']
 })
+
+
 export class LoginComponent implements OnInit {
   today: any;
   today_day='';
@@ -24,16 +27,19 @@ export class LoginComponent implements OnInit {
   pogoda_feels_like = '';
   pogoda_pressure='';
   pogoda_humidity = '';
+  counter=10;
 
 
 
 
 
-  constructor(private http: HttpClient,private router:Router) { }
+
+  constructor(private http: HttpClient,private router:Router, private  getMyData:GetDataService) { }
 
   ngOnInit(): void {
+    this.getMyData.getData(this.myData.bind(this))
     this.getUsers();
-   this.getWeather();
+    this.getWeather();
     this.getToday();
   }
 
@@ -68,6 +74,9 @@ export class LoginComponent implements OnInit {
     this.today_weekday = weekdays[this.today.getDay()-1]
 
     this.today = this.today_day + ' ' + this.today_month + ' ' + this.today_year
+  }
+  myData() {
+    this.counter++;
   }
 
 login () {

@@ -7,18 +7,26 @@ import { LoginComponent } from './MyComponents/login/login.component';
 import { HomeComponent } from './MyComponents/home/home.component';
 import {FormsModule} from "@angular/forms";
 import {HttpClientModule} from "@angular/common/http";
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { WeightformComponent } from './MyComponents/weightform/weightform.component';
+import { WeightchartComponent } from './MyComponents/weightchart/weightchart.component';
+import { MainComponent } from './MyComponents/main/main.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    WeightformComponent,
+    WeightchartComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

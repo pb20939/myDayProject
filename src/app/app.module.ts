@@ -11,6 +11,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { WeightformComponent } from './MyComponents/weightform/weightform.component';
 import { WeightchartComponent } from './MyComponents/weightchart/weightchart.component';
 import { MainComponent } from './MyComponents/main/main.component';
+import { WeatherComponent } from './MyComponents/weather/weather.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { MainComponent } from './MyComponents/main/main.component';
     HomeComponent,
     WeightformComponent,
     WeightchartComponent,
-    MainComponent
+    MainComponent,
+    WeatherComponent
   ],
   imports: [
     BrowserModule,

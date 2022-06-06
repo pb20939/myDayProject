@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "name": "Google",
+    "www": "https://www.google.pl/",
+    "ico": "https://www.google.pl/favicon.ico"
+  },
+  {
+    "id": 2,
+    "name": "Poczta Gmail",
+    "www": "https://mail.google.com/mail/u/0/?ogbl#inbox",
+    "ico": "https://mail.google.com/favicon.ico"
+  },
+  {
+    "id": 3,
+    "name": "Allegro",
+    "www": "https://allegro.pl/",
+    "ico": "https://allegro.pl/favicon.ico"
+  },
+  {
+    "id": 4,
+    "name": "Franiu",
+    "password": "12345"
+  },
+  {
+    "id": 5,
+    "name": "Gucio",
+    "password": "12345"
+  },
+  {
+    "id": 6,
+    "name": "Fela",
+    "password": "12345"
+  },
+  {
+    "id": 7,
+    "name": "Lola",
+    "password": "12345"
+  }
+]

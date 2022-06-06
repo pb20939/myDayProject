@@ -1,0 +1,21 @@
+<!--    ramka z pogodą-->
+<div class="col">
+  <div class="shadow-lg bg-body rounded">
+    <div class="alert alert-secondary " role="alert">
+      <div class="alert-heading ">
+
+        <h6>{{pogoda_name | uppercase}}, {{pogoda_country | uppercase}}</h6>
+        <hr>
+        <h2 class="icon"><img [src]="pogoda_icon" alt=""><strong>  {{pogoda_temp | number:'1.0-0'}}°C</strong></h2>
+
+        <hr>
+        <li >temperatura odczuwalna: {{pogoda_feels_like | number:'1.0-0'}}°C</li>
+        <li >{{pogoda_description}}</li>
+        <li >ciśnienie: {{pogoda_pressure}}hPa</li>
+        <li >wilgotność: {{pogoda_humidity}}%</li>
+      </div>
+
+    </div>
+  </div>
+</div>
+

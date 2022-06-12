@@ -1,18 +1,19 @@
 <!--    ramka z pogodą-->
-<div class="col">
+<div class="col" *ngIf="weatherData">
   <div class="shadow-lg bg-body rounded">
     <div class="alert alert-secondary " role="alert">
       <div class="alert-heading ">
 
-        <h6>{{pogoda_name | uppercase}}, {{pogoda_country | uppercase}}</h6>
+        <h6>{{weatherData.name | uppercase}}, {{weatherData.sys.country | uppercase}}</h6>
         <hr>
-        <h2 class="icon"><img [src]="pogoda_icon" alt=""><strong>  {{pogoda_temp | number:'1.0-0'}}°C</strong></h2>
+        <h2 class="icon"><img [src]="pogoda_icon" alt=""><strong>  {{weatherData.main.temp | number:'1.0-0'}}°C</strong></h2>
 
         <hr>
-        <li >temperatura odczuwalna: {{pogoda_feels_like | number:'1.0-0'}}°C</li>
-        <li >{{pogoda_description}}</li>
-        <li >ciśnienie: {{pogoda_pressure}}hPa</li>
-        <li >wilgotność: {{pogoda_humidity}}%</li>
+        <li >temperatura odczuwalna: {{weatherData.main.feels_like | number:'1.0-0'}}°C</li>
+        <li >{{weatherData.weather[0].description}}</li>
+        <li >ciśnienie: {{weatherData.main.pressure}}hPa</li>
+        <li >wilgotność: {{weatherData.main.humidity}}%</li>
+        <li >wiatr: {{weatherData.wind.speed | number:'1.0-1'}}km/h</li>
       </div>
 
     </div>

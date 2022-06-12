@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Google",
     "www": "https://www.google.pl/",
-    "ico": "https://www.google.pl/favicon.ico"
+    "ico": "https://google.pl/favicon.ico"
   },
   {
     "id": 2,
@@ -19,22 +19,20 @@
   },
   {
     "id": 4,
-    "name": "Franiu",
-    "password": "12345"
+    "name": "Komputronik",
+    "www": "https://www.komputronik.pl/",
+    "ico": "https://www.komputronik.pl//favicon.ico"
   },
   {
     "id": 5,
-    "name": "Gucio",
-    "password": "12345"
+    "name": "Onet",
+    "www": "https://www.onet.pl/",
+    "ico": "https://www.onet.pl/favicon.ico"
   },
   {
     "id": 6,
-    "name": "Fela",
-    "password": "12345"
-  },
-  {
-    "id": 7,
-    "name": "Lola",
-    "password": "12345"
+    "name": "Maratony polskie",
+    "www": "https://allegro.pl/",
+    "ico": "https://www.maratonypolskie.pl/maratony_favicon.ico"
   }
 ]

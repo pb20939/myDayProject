@@ -1,7 +1,9 @@
+@import "src/assets/styles/variables";
+
 .nav-link {
-  color: #e0e1ddff;
+  color: $platinum;
 }
 .nav-link:hover {
   border-radius: 5px;
-  background-color: #778da9ff;
+  background-color: $shadow-blue;
 }

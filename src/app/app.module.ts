@@ -12,6 +12,8 @@ import { WeightformComponent } from './MyComponents/weightform/weightform.compon
 import { WeightchartComponent } from './MyComponents/weightchart/weightchart.component';
 import { MainComponent } from './MyComponents/main/main.component';
 import { WeatherComponent } from './MyComponents/weather/weather.component';
+import { HolidaysComponent } from './MyComponents/holidays/holidays.component';
+import { WeblinksComponent } from './MyComponents/weblinks/weblinks.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { WeatherComponent } from './MyComponents/weather/weather.component';
     WeightformComponent,
     WeightchartComponent,
     MainComponent,
-    WeatherComponent
+    WeatherComponent,
+    HolidaysComponent,
+    WeblinksComponent
   ],
   imports: [
     BrowserModule,

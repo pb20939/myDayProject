@@ -1,6 +1,9 @@
+@import "src/assets/styles/variables";
+
 .card-text{
   cursor: pointer;
-  color: #fa7c7c;
+  color: $oxford-blue;
+  //color: #fa7c7c;
 }
 
 .card-header {

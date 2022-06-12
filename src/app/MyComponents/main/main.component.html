@@ -12,16 +12,9 @@
           <li class="nav-item active">
             <a class="nav-link " href="home"> Home </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="login"> Ulamek </a>
-          </li>
 
           <li class="nav-item">
             <a class="nav-link" href="home#my_weight"> Weight </a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="timer"> Timer </a>
           </li>
 
         </ul>
@@ -361,32 +354,19 @@
         </defs>
       </svg>
       {{today}} - {{today_weekday}} </h5>
+
     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
+  <div>
+    <app-holidays></app-holidays>
+  </div>
   <div class="offcanvas-body">
+
     <div>
       <app-weather></app-weather>
     </div>
 
-    <div class="dropdown mt-3">
-      <ul class="nav flex-column">
-        <li class="nav-item">
-          <a class="nav-link.js-scroll-trigger" aria-current="page" href="#">My links</a>
-        </li>
-        <li class="page-item"><a class="page-link" href="#my_weight">My weight</a></li>
-        <li class="nav-item">
-          <a class="nav-link.js-scroll-trigger" href="#">aaaaa</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link.js-scroll-trigger" href="#">Link</a>
-        </li>
-        <!--        <li class="nav-item">-->
-        <!--          <a class="nav-link disabled">Disabled</a>-->
-        <!--        </li>-->
-      </ul>
-    </div>
+
   </div>
-
-
 
 </div>

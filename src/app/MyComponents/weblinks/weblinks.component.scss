@@ -1,0 +1,10 @@
+@import "src/assets/styles/variables";
+
+.wybor {
+  background-color: $platinum;
+}
+
+.wybor:hover {
+  box-shadow: inset 0px 0px 5px rgba($rich-black-fogra-29, .5) !important;
+}
+

@@ -22,7 +22,6 @@ export class WeatherComponent implements OnInit {
     this.weatherService.getWeatherData().subscribe({next: (response)=> {
         this.weatherData = response;
         this.pogoda_icon = `https://openweathermap.org/img/wn/${this.weatherData.weather[0].icon}@2x.png`;
-        console.log('wynik: ',response);
       }
       })
 

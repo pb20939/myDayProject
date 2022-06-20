@@ -4,10 +4,15 @@
 
 import {HttpParams} from "@angular/common/http";
 
+
 export const environment = {
   production: false,
-  holidaysApiBaseUrl: 'https://holidays.abstractapi.com/v1/'
-
+  holidaysApiBaseUrl: 'https://holidays.abstractapi.com/v1/',
+  planetsApiBaseUrl: 'https://data.mongodb-api.com/app/data-qtawu/endpoint/data/v1/action/findOne',
+  ContentTypeName: 'Content-Type',
+  ContentTypeValue: 'application/json',
+  apikeyName: 'api-key',
+  apikeyValue: 'qkDU7EUTlxOaOPuXJoF7KGNfCLIdPMmqMoU2TKC1L31DO2tBPdX1seRrugbRoStk',
 };
 
 /*

@@ -14,6 +14,8 @@ import { MainComponent } from './MyComponents/main/main.component';
 import { WeatherComponent } from './MyComponents/weather/weather.component';
 import { HolidaysComponent } from './MyComponents/holidays/holidays.component';
 import { WeblinksComponent } from './MyComponents/weblinks/weblinks.component';
+import { CurrencyformComponent } from './MyComponents/currencyform/currencyform.component';
+import { CurrencytableComponent } from './MyComponents/currencytable/currencytable.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { WeblinksComponent } from './MyComponents/weblinks/weblinks.component';
     MainComponent,
     WeatherComponent,
     HolidaysComponent,
-    WeblinksComponent
+    WeblinksComponent,
+    CurrencyformComponent,
+    CurrencytableComponent
   ],
   imports: [
     BrowserModule,

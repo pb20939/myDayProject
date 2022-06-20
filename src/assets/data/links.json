@@ -1,6 +1,30 @@
 [
   {
     "id": 1,
+    "name": "Wyborcza",
+    "www": "https://bydgoszcz.wyborcza.pl/bydgoszcz/0,0.html#TRNavSST",
+    "ico": "https://bydgoszcz.wyborcza.pl/favicon.ico"
+  },
+  {
+    "id": 2,
+    "name": "Sport onet",
+    "www": "https://sport.onet.pl/",
+    "ico": "https://sport.onet.pl/favicon.ico"
+  },
+  {
+    "id": 3,
+    "name": "Meteo",
+    "www": "http://meteo.pl/",
+    "ico": "http://meteo.pl/favicon.ico"
+  },
+  {
+    "id": 4,
+    "name": "Accu Weather",
+    "www": "http://www.accuweather.com/pl/",
+    "ico": "http://www.accuweather.com/favicon.ico"
+  },
+  {
+    "id": 1,
     "name": "Google",
     "www": "https://www.google.pl/",
     "ico": "https://google.pl/favicon.ico"
@@ -34,5 +58,17 @@
     "name": "Maratony polskie",
     "www": "https://allegro.pl/",
     "ico": "https://www.maratonypolskie.pl/maratony_favicon.ico"
+  },
+  {
+    "id": 7,
+    "name": "TVP Sport",
+    "www": "https://sport.tvp.pl/",
+    "ico": "https://sport.tvp.pl/favicon.ico"
+  },
+  {
+    "id": 7,
+    "name": "Akademia",
+    "www": "http://www.cm.umk.pl/",
+    "ico": "http://www.cm.umk.pl/favicon.ico"
   }
 ]

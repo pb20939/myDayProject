@@ -10,6 +10,7 @@ import {CurrencyData} from "../../MyModels/currency.model";
 export class CurrencytableComponent implements OnInit {
 
   currencyDate: any;
+  imgURL: string = 'http://localhost:4200/assets/images/flags/pln.svg'
 
   constructor(private currencyService: GetcurrencyService) {
   }

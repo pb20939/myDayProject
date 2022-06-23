@@ -14,3 +14,4 @@ export interface Rate {
   bid: number
   ask: number
 }
+

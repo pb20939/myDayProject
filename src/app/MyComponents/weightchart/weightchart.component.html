@@ -1,0 +1,40 @@
+<div class="card border-secondary m-5 font-monospace shadow">
+  <div class="card-body">
+    <h4 class="card-title font-monospace">Weight table</h4>
+    <br>
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Date</th>
+        <th scope="col">Weight</th>
+        <th scope="col">Height</th>
+        <th scope="col">BMI</th>
+        <th scope="col"></th>
+      </tr>
+      </thead>
+      <tbody>
+      <ng-container *ngFor="let w of collectionWeight; index as i">
+        <tr>
+          <th scope="row">{{ i + 1 }}</th>
+          <td>
+            {{ w.date }}
+          </td>
+          <td>
+            {{ w.weight | number }}
+          </td>
+          <td>
+            {{ w.height | number }}
+          </td>
+          <td>
+            {{ w.BMI | number }}
+          </td>
+          <td>
+            {{ w.opis}}
+          </td>
+        </tr>
+      </ng-container>
+      </tbody>
+    </table>
+  </div>
+</div>

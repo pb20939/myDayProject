@@ -16,6 +16,7 @@ import { HolidaysComponent } from './MyComponents/holidays/holidays.component';
 import { WeblinksComponent } from './MyComponents/weblinks/weblinks.component';
 import { CurrencyformComponent } from './MyComponents/currencyform/currencyform.component';
 import { CurrencytableComponent } from './MyComponents/currencytable/currencytable.component';
+import { CurrencyComponent } from './MyComponents/currency/currency.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { CurrencytableComponent } from './MyComponents/currencytable/currencytab
     HolidaysComponent,
     WeblinksComponent,
     CurrencyformComponent,
-    CurrencytableComponent
+    CurrencytableComponent,
+    CurrencyComponent
   ],
   imports: [
     BrowserModule,
